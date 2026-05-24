@@ -7,6 +7,8 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Sidebar navigation
+st.sidebar.image("https://img.icons8.com/emoji/96/seedling.png", width=60)
 st.sidebar.title("🌿 AgroShield AI")
 st.sidebar.caption("Smart Gardening Dashboard")
 
@@ -18,6 +20,7 @@ page = st.sidebar.radio(
 st.sidebar.markdown("---")
 st.sidebar.success("🟢 System Online")
 
+# Route to pages
 if page == "🏠 Dashboard":
     from pages import dashboard
     dashboard.show()
