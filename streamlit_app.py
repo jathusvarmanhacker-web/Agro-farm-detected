@@ -6,7 +6,7 @@ import {
   WifiOff, ChevronRight, Calendar, Sprout, Zap, Eye, Home,
   BarChart2, Lock, MessageSquare, Sun, Cloud
 } from "lucide-react";
-// ─── Main App ─────────────────────────────────────────────────────────────────
+
 export default function AgroShieldAI() {      // ← THIS is the "main app"
 
   const [page, setPage] = useState("dashboard");
