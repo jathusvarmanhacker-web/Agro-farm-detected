@@ -7,7 +7,7 @@ import {
   BarChart2, Lock, MessageSquare, Sun, Cloud
 } from "lucide-react";
 
-export default function AgroShieldAI() {      // ← THIS is the "main app"
+export default function AgroShieldAI() {      //  THIS is the "main app"
 
   const [page, setPage] = useState("dashboard");
   const [sensors, setSensors] = useState({...});
